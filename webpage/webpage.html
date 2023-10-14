@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>First Web Page</title>
+</head>
+
+<!-- Heading , Paragraph, link, image -->
+<style>
+  body{
+    padding: 0;
+    margin: 0;
+    background-image: url("./images/beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+  }
+
+  div {
+    line-height: 1em;
+    align-self: center;
+  }
+  .title > h1 {
+    font-size: 7em;
+    font-family: 'Pacifico', cursive;
+    color: rgb(80, 211, 228);
+    text-align: center;
+  }
+  .title > p{
+    color: rgb(26, 98, 13);
+    text-align: center;
+    font-size: large;
+    font-style: italic;  
+  }
+  .discover-hawaii {
+    text-decoration: none;
+    color: green;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: 500ms ;
+  }
+  img:hover{
+   transform: scale(1.1);
+  }
+  
+  div {
+    word-spacing: 1px;
+  }
+
+  .img-container > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img-container > ul{
+    list-style: none;
+  }
+
+  .discover, .discover > a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+</style>
+
+<body>
+  <div class="title">
+    <h1>HAWAII</h1>
+    <p>"Hawaii, known as the "Paradise of the Pacific," boasts some of the world's most breathtaking and diverse beaches.
+     <br> Each of its shorelines offers a unique experience, from powdery white sands to dramatic volcanic landscapes."</p>
+     <p ><a class="discover-hawaii" href="https://www.britannica.com/place/Hawaii-state" target="_blank">--Click here to know more about <span>Hawaii</span>--</a></p>
+     <div class="img-container">
+       <ul class="img-links">
+         <li>
+            <img src="./images/beach_rock.jpg" alt="beach">
+            <p class="discover"><a href="https://www.philippineairlines.com/" target="_blank">Book Now</a></p>
+        </li>
+         <li>
+            <img src="./images/seashore.jpg" alt="seashore">
+            <p class="discover"><a href="https://www.philippineairlines.com/" target="_blank">Book Now</a></p>
+        </li>
+         <li>
+          <img src="./images/surfers.jpg" alt="surfers">
+          <p class="discover"><a href="https://www.philippineairlines.com/" target="_blank">Book Now</a></p>
+        </li>
+       </ul>
+     </div>
+  </div>
+</body>
+</html>
