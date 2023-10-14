@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, rgba(50, 50, 50, 0.5), rgba(159, 156, 156, 0.1)), url("./image/pexels-narda-yescas-1566837.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.dropdown-menu{
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.nav-link, .dropdown-item{
+    color: #f7ad45;
+    font-size: 1.3em;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+h2{
+    color: #FFF1D7;
+    font-weight: 300;
+    margin-left: 3px;
+}
+h1{
+    color: #ffc107;
+    font-weight: 600;
+    font-size: 5em;
+    margin-top: -20px;
+}
+.blog-container span{
+    color: #90A74C;
+}
+
+.blog-container{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+button {
+    padding: 5px 15px;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border: none;
+    background-color: #f7ad45 !important;
+}
+.visit {
+    margin-left: 20px;   
+}
+
+
+@media screen and (max-width: 768px) {
+    #navbarSupportedContent{
+        background-color: #939d75;
+        text-align: center;
+        padding-left: 10px;
+        z-index: 3;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
+  }
